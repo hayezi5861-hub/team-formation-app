@@ -1,0 +1,16 @@
+# ==== 비밀 정보는 절대 GitHub에 올리지 않습니다! ====
+.streamlit/secrets.toml
+secrets.toml
+.env
+.env.*
+*.env
+# 예시 파일만 올려도 됩니다
+!.streamlit/secrets.toml.example
+
+# ==== 파이썬 / 환경 ====
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.pytest_cache/
